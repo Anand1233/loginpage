@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+h2{
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+}
+.container{
+  background-color: #d3d4dc;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px rgb(124, 124, 129);
+  display:block;
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+}
+.box{
+  /* border: 1px solid black; */
+  /* height: 300px; */
+  width: 250px;
+  height: 252px;
+  margin-top: 85px;
+  margin-left: 25%;
+  margin-right: 20%;
+  display: inline-block;
+}
+.username
+{
+  background-color: #fffefe;
+  border: 2px solid rgb(245, 3, 3);
+  border-radius: 5px;
+  width: 250px;
+  height: 35px;
+  font-size: larger;
+}
+.password{
+  font-size: larger;
+  background-color: #fffefe;
+  margin-top: 15px;
+  border: 2px solid rgb(247, 2, 2);
+  border-radius: 5px;
+  width: 250px;
+  height: 35px;
+}
+.button{
+  font-size: large;
+  font-weight: bold;
+  background-color: #3cf02b;
+  border: 2px solid rgb(1, 28, 1);
+  width: 100%;
+  border-radius: 3px;
+  margin: 5px auto;
+  height: 25px;
+}
+.forgetbtn{
+  font-weight: bold;
+  border-radius: 3px;
+  border: 2px solid rgb(44, 44, 20);
+  background-color: #6291dc;
+  margin-top: 0.1px;
+  float: right;
+  height: 25px;
+}
+.button:hover{
+  background-color: #710e05;
+  cursor: pointer;
+}
+.forgetbtn:hover{
+  cursor: pointer;
+  background-color: #0519f9;
+}

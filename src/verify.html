@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email_verification</title>
+    <link rel="stylesheet" href="verify.css">
+</head>
+
+<body>
+    <form id="box">
+        <label for="email">Email:</label>
+        <input  type="email" id="email" name="email">
+        <button id="btn" type="submit">Send Link</button>
+      </form>
+      <script>
+        document.getElementById("box").addEventListener("submit", function(event) {
+          event.preventDefault(); // Prevent the form from submitting normally
+    
+          // Display an alert when the submit button is clicked
+          alert("Check your Email updation link sent successfully!");
+    
+          // You can perform other actions here, such as sending data to a server
+    
+          // Clear the input field after submitting (optional)
+          document.getElementById("email").value = "";
+        });
+      </script>
+      
+</body>
+</html>

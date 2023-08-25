@@ -1,0 +1,32 @@
+body{
+    background-color: antiquewhite;
+}
+#box{
+    border-radius: 5px;
+    background-color: aqua;
+    padding-top: 100px;
+    padding-left: 85px;
+    border: 1px solid black;
+    margin-top: 200px;
+    width: 500px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#email{
+    border: 1px solid red;
+    width: 300px;
+    height: 20px;
+    border-radius: 3px;
+}
+#btn{
+    margin: 0px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: rgb(154, 154, 255);
+}
+#btn:hover{
+    font-weight: 500;
+    background-color: rgb(80, 80, 183);
+    cursor: pointer;
+}
