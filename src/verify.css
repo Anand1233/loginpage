@@ -3,10 +3,10 @@ body{
 }
 #box{
     border-radius: 5px;
-    background-color: aqua;
+    background-color: rgb(238, 238, 238);
     padding-top: 100px;
     padding-left: 85px;
-    border: 1px solid black;
+    border: 1px solid rgb(123, 123, 123);
     margin-top: 200px;
     width: 500px;
     height: 120px;
@@ -14,16 +14,17 @@ body{
     margin-right: auto;
 }
 #email{
-    border: 1px solid red;
+    border: 1px solid rgb(123, 123, 123);
     width: 300px;
     height: 20px;
     border-radius: 3px;
 }
 #btn{
+    color: aliceblue;
     margin: 0px;
     height: 25px;
     border-radius: 3px;
-    background-color: rgb(154, 154, 255);
+    background-color: rgb(13, 13, 232);
 }
 #btn:hover{
     font-weight: 500;
